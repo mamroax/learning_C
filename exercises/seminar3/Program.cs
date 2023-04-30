@@ -66,7 +66,7 @@ void PrintCubes(int number)
     int count = 1;
     while(count<=number)
     {
-        Console.Write(Math.Pow(count,2));
+        Console.Write(Math.Pow(count,3));
         if (count < number) Console.Write(", ");
         count++;
     }
