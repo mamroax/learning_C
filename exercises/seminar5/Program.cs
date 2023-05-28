@@ -104,7 +104,7 @@ void ShowMaxMinDiff(int size)
     }
     else
     {
-        Console.Write("] -> " + (minNum + maxNum));
+        Console.Write("] -> " + (maxNum - minNum));
     }
 }
 
